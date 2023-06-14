@@ -1,0 +1,11 @@
+version: "4.13.1"
+
+services:
+  backend:
+    build: backend_server/.
+    ports:
+    - "3000:3000"
+  frontend: 
+    build: react_project/.
+    ports:
+    - 5173:5173

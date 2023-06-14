@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    width: 100%;
+  }
+  
+  .sidebar {
+    width: 350px;
+    padding: 12px;
+    border: 1px solid red;
+    text-align: center;
+
+  }
+  
+  .main {
+    text-align: center;
+    padding: 12px;
+    border: 1px solid black;
+    flex-grow: 1;
+  }
+  
+  
+  .vertical {
+    flex-direction: column-reverse;
+    width: 60%;
+    margin: 0 auto;
+  }
+  
